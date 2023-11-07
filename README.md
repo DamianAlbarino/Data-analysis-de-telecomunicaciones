@@ -52,26 +52,8 @@ Puedes acceder y explorar el dashboard desde el repositorio. El archivo del proy
 
 `KPIs`
 
-Debes graficar y medir el KPI propuesto a continuación, representándolo adecuadamente en el dashboard. A su vez, tambíen tienes que proponer, medir y graficar un segundo KPI que consideres relevante para la temática. 
-El KPI propuesto es:
-- *Aumentar en un 2% el acceso al servicio de internet para el próximo trimestre, cada 100 hogares, por provincia*.
-La fórmula es la siguiente:
-
- $`KPI = ((Nuevo acceso - Acceso actual) / Acceso actual) * 100`$
- 
-Donde:
-
-- "Nuevo acceso" se refiere al número de hogares con acceso a Internet después del próximo trimestre.
-- "Acceso actual" se refiere al número de hogares con acceso a Internet en el trimestre actual.
-
-Esta fórmula te ayudará a calcular el KPI para medir el aumento en el acceso a Internet por cada 100 hogares en cada provincia.
-
-**Ejemplo de uso:**
-
-KPI = ((510 - 500) / 500) * 100 = 2%
-
-Esto indicaría un aumento del 2% en el acceso a Internet en esa provincia para el próximo trimestre.
-
-`MUY IMPORTANTE` repasar qué es un KPI y cómo se diferencia de una métrica convencional. En el material de apoyo tienen lectura que puede ser de ayuda.</small>
-
+- *Aumentar en un 2% el acceso al servicio de internet para el próximo trimestre, cada 100.*
+- *Aumentar en un 2% las conexiones por fibra óptica para el próximo trimestre.*
+- *Reducir en un 5% el acceso a internet por dial up.*
+- *Mejorar un 10% el promedio de Mbps en las provincias con promedio menor a 20 Mbps.*
 
