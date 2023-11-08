@@ -42,17 +42,17 @@ Además, como parte de la fase de preparación para la creación del dashboard, 
 
 Al observar el dataset `1_Internet_Penetracion.xlsx` podemos ver que contiene el acceso a internet en diferentes provincias cada 100 hogares de Argentina durante el año 2014 hasta el 2022 y separados por trimestres del año. 
 
-![Grafico de lineas acceso cada 100 hogares](img\GraficoLineas100H.png)
+![Grafico de lineas acceso cada 100 hogares](https://github.com/DamianAlbarino/Proyecto-Individual-Nro-2/blob/main/img/GraficoLineas100H.png?raw=true)
 
 Pudimos ver que el acceso a internet cada 100 hogares hay una diferencia muy grande con capital federal y el resto de las provincias, ya desde un principio capital federal lidera esta metrica. Esto puede estar influenciadas por una serie de factores, como inversiones en infraestructura, población, políticas gubernamentales, demanda de servicios, avances tecnológicos y eventos económicos y sociales.
 
-![Grafico de barras prov x prov acceso cada 100 hogares](img\provinciaXprovincia100H.png)
+![Grafico de barras prov x prov acceso cada 100 hogares](https://github.com/DamianAlbarino/Proyecto-Individual-Nro-2/blob/main/img/provinciaXprovincia100H.png?raw=true)
 
 Al analizar provincia por provincia, podemos identificar saltos significativos en el gráfico de barras, lo cual es de particular interés. Estos saltos representan áreas de oportunidad que merecen un estudio más detallado. Por ejemplo, en provincias como San Luis (2018 Trim 2 al Trim 3), La Rioja (2021 Trim 1 al Trim 2), Jujuy (2018 Trim 3 al Trim 4) y Tierra del fuego (2021 Trim 2 al Trim 3), entre otros, observamos un incremento notorio en la métrica de acceso a Internet por cada 100 hogares.
 
 El dataset `2_Internet_BAF.xlsx` muestra información recopilada a lo largo de varios años y trimestres en Argentina sobre la conectividad a Internet en diversas provincias del país.
 
-![Grafico de barras Banda ancha y Dial Up](img\GraficoBarrasDialUpBandaAncha.png)
+![Grafico de barras Banda ancha y Dial Up](https://github.com/DamianAlbarino/Proyecto-Individual-Nro-2/blob/main/img/GraficoBarrasDialUpBandaAncha.png?raw=true)
 
 Existe una disparidad notoria en la cantidad de usuarios entre la banda ancha y Dial-up, y esta brecha se debe principalmente a las marcadas diferencias en la velocidad de conexión entre estos dos tipos de servicios. La banda ancha representa una tecnología de conexión a Internet significativamente más rápida, estable y costosa en comparación con el Dial-up. El Dial-up es una alternativa más económica, pero a expensas de velocidades de conexión considerablemente más lentas y una menor estabilidad en la conexión.
 
@@ -60,22 +60,22 @@ Es importante destacar que, a medida que transcurre el tiempo, se ha observado u
 
 El dataset `3_Internet_Accesos-por-tecnologia.xlsx` proporciona información sobre el tipo de tecnologia para el acceso a Internet en Argentina durante 2014-2022 separados en trimestres.
 
-![Grafico de lineas acceso por tecnologia](img\graficoLineasAccesoXTec.png)
+![Grafico de lineas acceso por tecnologia](https://github.com/DamianAlbarino/Proyecto-Individual-Nro-2/blob/main/img/graficoLineasAccesoXTec.png?raw=true)
 
 El gráfico de lineas refleja cómo el ADSL muestra una disminución notable, en línea con la tendencia de disminución del Dial Up, mientras que la Banda Ancha y el Cablemódem como la fibra óptica están en aumento, lo que refleja la creciente demanda de velocidades más altas.
 La fibra óptica se perfila como el estándar del futuro, por lo que es posible prever que en breve también comenzará a disminuir la métrica relacionada con el cablemódem a medida que se realice la transición hacia la fibra óptica.
 
 El dataset `4_historico_velocidad_internet.xlsx`contiene información sobre la velocidad promedio de descarga de conexiones a Internet en diferentes provincias de Argentina a lo largo del 2014 al 2022 y sus respectivos trimestres.
 
-![Grafico de lineas Mbps](img\GraficoLineasMbps.png)
+![Grafico de lineas Mbps](https://github.com/DamianAlbarino/Proyecto-Individual-Nro-2/blob/main/img/GraficoLineasMbps.png?raw=true)
 
 Se observa una variación notoria en la velocidad de Internet en diferentes provincias a lo largo de este período.
 A partir del año 2018, algunas provincias experimentaron un aumento significativo en sus velocidades de conexión, lo que puede indicar mejoras significativas en la infraestructura de Internet.
 Por otro lado, algunas provincias muestran un crecimiento más lento en la velocidad de Internet durante este período, como Chubut que han mantenido una velocidad de Internet relativamente constante sin experimentar un crecimiento significativo en comparación con el resto de las provincias.
 
-![Grafico de barras 20 Mbps](img\MenorA20Mbps.png)
+![Grafico de barras 20 Mbps](https://github.com/DamianAlbarino/Proyecto-Individual-Nro-2/blob/main/img/MenorA20Mbps.png?raw=true)
 
-Podemos ver que hay muy pocas provincias que aun tienen velocidad promedio menor a 20 Mb a fines del 2022, estas son provincias donde se ve una posibilidad de crecimiento en el mercado por como esta hoy en dia la tecnologia a nivel mundial.
+Observamos que en el cierre de 2022, solo unas pocas provincias aún mantienen velocidades promedio por debajo de 20 Mbps. Estas provincias presentan una notable oportunidad de crecimiento en el mercado, aprovechando la tendencia tecnológica actual a nivel mundial. La demanda de conexiones de alta velocidad es evidente, y estas áreas podrían beneficiarse significativamente de inversiones en infraestructura y servicios de Internet para satisfacer las necesidades en constante evolución de la sociedad moderna.
 
 ## `Dashboard`
 
@@ -92,7 +92,18 @@ Puedes acceder y explorar el dashboard desde el repositorio. El archivo del proy
 ## `KPIs`
 
 - *Aumentar en un 2% el acceso al servicio de internet para el próximo trimestre, cada 100.*
+
+Para el 2023 Trim. 1: ![KPI Acceso 100 hogares]()
+
 - *Aumentar en un 2% las conexiones por fibra óptica para el próximo trimestre.*
+
+Para el 2023 Trim. 1: ![KPI Fibra optica]()
+
 - *Reducir en un 5% el acceso a internet por dial up.*
+
+Para el 2023 Trim. 1: ![KPI Dial up]()
+
 - *Mejorar un 10% el promedio de Mbps en las provincias con promedio menor a 20 Mbps.*
+
+Para el 2023 Trim. 1: ![KPI Mbps]()
 
