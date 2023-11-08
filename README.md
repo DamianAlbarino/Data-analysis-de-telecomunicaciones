@@ -130,3 +130,10 @@ Donde:
 - "Mbps Actual" se refiere a la cantidad de mbps en el trimestre actual.
 
 Ejemplo para el 2023 Trim. 1: ![KPI Mbps](https://github.com/DamianAlbarino/Proyecto-Individual-Nro-2/blob/main/img/KPIProvincias.png?raw=true)
+
+# Contacto
+
+Si tienes alguna pregunta, sugerencia o simplemente quieres ponerte en contacto conmigo, estaré encantado de hablar contigo. Puedes alcanzarme de las siguientes maneras:
+
+- Correo Electrónico: [damianalbarino@hotmail.com](mailto:damianalbarino@hotmail.com)
+- LinkedIn: [Damián Nicolas Albariño](https://www.linkedin.com/in/dami%C3%A1n-nicol%C3%A1s-albari%C3%B1o-b03b9a1ab/)
