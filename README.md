@@ -93,17 +93,16 @@ Puedes acceder y explorar el dashboard desde el repositorio. El archivo del proy
 
 - *Aumentar en un 2% el acceso al servicio de internet para el próximo trimestre, cada 100.*
 
-Para el 2023 Trim. 1: ![KPI Acceso 100 hogares]()
+Para el 2023 Trim. 1: ![KPI Acceso 100 hogares](https://github.com/DamianAlbarino/Proyecto-Individual-Nro-2/blob/main/img/KPIAcceso100H.png?raw=true)
 
 - *Aumentar en un 2% las conexiones por fibra óptica para el próximo trimestre.*
 
-Para el 2023 Trim. 1: ![KPI Fibra optica]()
+Para el 2023 Trim. 1: ![KPI Fibra optica](https://github.com/DamianAlbarino/Proyecto-Individual-Nro-2/blob/main/img/KPIFibraOptica.png?raw=true)
 
 - *Reducir en un 5% el acceso a internet por dial up.*
 
-Para el 2023 Trim. 1: ![KPI Dial up]()
+Para el 2023 Trim. 1: ![KPI Dial up](https://github.com/DamianAlbarino/Proyecto-Individual-Nro-2/blob/main/img/KPIDialUp.png?raw=true)
 
 - *Mejorar un 10% el promedio de Mbps en las provincias con promedio menor a 20 Mbps.*
 
-Para el 2023 Trim. 1: ![KPI Mbps]()
-
+Para el 2023 Trim. 1: ![KPI Mbps](https://github.com/DamianAlbarino/Proyecto-Individual-Nro-2/blob/main/img/KPIProvincias.png?raw=true)
