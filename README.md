@@ -23,22 +23,61 @@ En comparación con la media mundial, Argentina está a la vanguardia en el desa
 
 En este contexto, una empresa prestadora de servicios de telecomunicaciones le encarga a usted la realización de un **análisis** completo que permita reconocer el comportamiento de este sector a nivel nacional. Considere que la principal actividad de la empresa es brindar **acceso a internet**, pero también es importante considerar el comportamiento asociado al resto de los servicios de comunicación, con el fin de orientar a la empresa en brindar una buena calidad de sus servicios, identificar oportunidades de crecimiento y poder plantear soluciones personalizadas a sus posibles clientes.
 
-## **Trabajo realizado**
+# **Trabajo realizado**
 
-`EDA` (Exploratory Data Analysis)
+## `EDA` (Exploratory Data Analysis)
 
 En este proyecto, se ha realizado un análisis detallado de varios datasets seleccionados, que incluyen los siguientes archivos:
 
-- `Internet_penetracion.xlsx`
-- `Internet_BAF.xlsx`
-- `Internet_Acceso-por-tecnologia.xlsx`
-- `historico_velocidad_internet.xlsx`
+- `1_Internet_Penetracion.xlsx`
+- `2_Internet_BAF.xlsx`
+- `3_Internet_Accesos-por-tecnologia.xlsx`
+- `4_historico_velocidad_internet.xlsx`
 
 El análisis completo de estos datasets se encuentra documentado en el archivo `EDA.ipynb`, donde se detallan las exploraciones, transformaciones y hallazgos clave de los datos.
 
 Además, como parte de la fase de preparación para la creación del dashboard, se han generado diversos gráficos con el objetivo de comprender a fondo la información contenida en los datasets. Estos gráficos desempeñan un papel fundamental al proporcionar un contexto visual que facilitará la interpretación de los indicadores clave de rendimiento (KPIs) en el dashboard final.
 
-`Dashboard`
+### Resumen del analisis del EDA:
+
+Al observar el dataset `1_Internet_Penetracion.xlsx` podemos ver que contiene el acceso a internet en diferentes provincias cada 100 hogares de Argentina durante el año 2014 hasta el 2022 y separados por trimestres del año. 
+
+![Grafico de lineas acceso cada 100 hogares](img\GraficoLineas100H.png)
+
+Pudimos ver que el acceso a internet cada 100 hogares hay una diferencia muy grande con capital federal y el resto de las provincias, ya desde un principio capital federal lidera esta metrica. Esto puede estar influenciadas por una serie de factores, como inversiones en infraestructura, población, políticas gubernamentales, demanda de servicios, avances tecnológicos y eventos económicos y sociales.
+
+![Grafico de barras prov x prov acceso cada 100 hogares](img\provinciaXprovincia100H.png)
+
+Al analizar provincia por provincia, podemos identificar saltos significativos en el gráfico de barras, lo cual es de particular interés. Estos saltos representan áreas de oportunidad que merecen un estudio más detallado. Por ejemplo, en provincias como San Luis (2018 Trim 2 al Trim 3), La Rioja (2021 Trim 1 al Trim 2), Jujuy (2018 Trim 3 al Trim 4) y Tierra del fuego (2021 Trim 2 al Trim 3), entre otros, observamos un incremento notorio en la métrica de acceso a Internet por cada 100 hogares.
+
+El dataset `2_Internet_BAF.xlsx` muestra información recopilada a lo largo de varios años y trimestres en Argentina sobre la conectividad a Internet en diversas provincias del país.
+
+![Grafico de barras Banda ancha y Dial Up](img\GraficoBarrasDialUpBandaAncha.png)
+
+Existe una disparidad notoria en la cantidad de usuarios entre la banda ancha y Dial-up, y esta brecha se debe principalmente a las marcadas diferencias en la velocidad de conexión entre estos dos tipos de servicios. La banda ancha representa una tecnología de conexión a Internet significativamente más rápida, estable y costosa en comparación con el Dial-up. El Dial-up es una alternativa más económica, pero a expensas de velocidades de conexión considerablemente más lentas y una menor estabilidad en la conexión.
+
+Es importante destacar que, a medida que transcurre el tiempo, se ha observado una disminución gradual en la utilización del servicio de conexión Dial-up
+
+El dataset `3_Internet_Accesos-por-tecnologia.xlsx` proporciona información sobre el tipo de tecnologia para el acceso a Internet en Argentina durante 2014-2022 separados en trimestres.
+
+![Grafico de lineas acceso por tecnologia](img\graficoLineasAccesoXTec.png)
+
+El gráfico de lineas refleja cómo el ADSL muestra una disminución notable, en línea con la tendencia de disminución del Dial Up, mientras que la Banda Ancha y el Cablemódem como la fibra óptica están en aumento, lo que refleja la creciente demanda de velocidades más altas.
+La fibra óptica se perfila como el estándar del futuro, por lo que es posible prever que en breve también comenzará a disminuir la métrica relacionada con el cablemódem a medida que se realice la transición hacia la fibra óptica.
+
+El dataset `4_historico_velocidad_internet.xlsx`contiene información sobre la velocidad promedio de descarga de conexiones a Internet en diferentes provincias de Argentina a lo largo del 2014 al 2022 y sus respectivos trimestres.
+
+![Grafico de lineas Mbps](img\GraficoLineasMbps.png)
+
+Se observa una variación notoria en la velocidad de Internet en diferentes provincias a lo largo de este período.
+A partir del año 2018, algunas provincias experimentaron un aumento significativo en sus velocidades de conexión, lo que puede indicar mejoras significativas en la infraestructura de Internet.
+Por otro lado, algunas provincias muestran un crecimiento más lento en la velocidad de Internet durante este período, como Chubut que han mantenido una velocidad de Internet relativamente constante sin experimentar un crecimiento significativo en comparación con el resto de las provincias.
+
+![Grafico de barras 20 Mbps](img\MenorA20Mbps.png)
+
+Podemos ver que hay muy pocas provincias que aun tienen velocidad promedio menor a 20 Mb a fines del 2022, estas son provincias donde se ve una posibilidad de crecimiento en el mercado por como esta hoy en dia la tecnologia a nivel mundial.
+
+## `Dashboard`
 
 Este dashboard ha sido creado utilizando Power BI y está diseñado para proporcionar una experiencia interactiva para el seguimiento y análisis de datos clave.
 
@@ -50,7 +89,7 @@ Puedes acceder y explorar el dashboard desde el repositorio. El archivo del proy
 2. Haz clic en el archivo para abrirlo en Power BI.
 3. Explora las diferentes visualizaciones y utiliza las funciones interactivas para analizar los datos.
 
-`KPIs`
+## `KPIs`
 
 - *Aumentar en un 2% el acceso al servicio de internet para el próximo trimestre, cada 100.*
 - *Aumentar en un 2% las conexiones por fibra óptica para el próximo trimestre.*
