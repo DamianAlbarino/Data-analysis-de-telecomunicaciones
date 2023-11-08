@@ -34,7 +34,7 @@ En este proyecto, se ha realizado un análisis detallado de varios datasets sele
 - `3_Internet_Accesos-por-tecnologia.xlsx`
 - `4_historico_velocidad_internet.xlsx`
 
-El análisis completo de estos datasets se encuentra documentado en el archivo `EDA.ipynb`, donde se detallan las exploraciones, transformaciones y hallazgos clave de los datos.
+El análisis completo de estos datasets se encuentra documentado en el archivo [`EDA.ipynb`](https://github.com/DamianAlbarino/Proyecto-Individual-Nro-2/blob/main/EDA.ipynb), donde se detallan las exploraciones, transformaciones y hallazgos clave de los datos.
 
 Además, como parte de la fase de preparación para la creación del dashboard, se han generado diversos gráficos con el objetivo de comprender a fondo la información contenida en los datasets. Estos gráficos desempeñan un papel fundamental al proporcionar un contexto visual que facilitará la interpretación de los indicadores clave de rendimiento (KPIs) en el dashboard final.
 
