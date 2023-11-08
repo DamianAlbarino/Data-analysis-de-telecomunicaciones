@@ -91,18 +91,42 @@ Puedes acceder y explorar el dashboard desde el repositorio. El archivo del proy
 
 ## `KPIs`
 
-- *Aumentar en un 2% el acceso al servicio de internet para el próximo trimestre, cada 100.*
+- *`Aumentar en un 2% el acceso al servicio de internet para el próximo trimestre, cada 100.`*
 
-Para el 2023 Trim. 1: ![KPI Acceso 100 hogares](https://github.com/DamianAlbarino/Proyecto-Individual-Nro-2/blob/main/img/KPIAcceso100H.png?raw=true)
+Formula utilizada =  $`KPI = ((Nuevo Acceso - Acceso Actual) / Acceso Actual) * 100`$
 
-- *Aumentar en un 2% las conexiones por fibra óptica para el próximo trimestre.*
+Donde:
+- "Nuevo Acceso" se refiere al número de hogares con acceso a Internet después del próximo trimestre.
+- "Acceso Actual" se refiere al número de hogares con acceso a Internet en el trimestre actual.
 
-Para el 2023 Trim. 1: ![KPI Fibra optica](https://github.com/DamianAlbarino/Proyecto-Individual-Nro-2/blob/main/img/KPIFibraOptica.png?raw=true)
+Ejemplo para el 2023 Trim. 1: ![KPI Acceso 100 hogares](https://github.com/DamianAlbarino/Proyecto-Individual-Nro-2/blob/main/img/KPIAcceso100H.png?raw=true)
 
-- *Reducir en un 5% el acceso a internet por dial up.*
+- *`Aumentar en un 2% las conexiones por fibra óptica Ejemplo para el próximo trimestre.`*
 
-Para el 2023 Trim. 1: ![KPI Dial up](https://github.com/DamianAlbarino/Proyecto-Individual-Nro-2/blob/main/img/KPIDialUp.png?raw=true)
+Formula utilizada =  $`KPI = ((Nuevos Usuarios - Usuarios Actuales) / Usuarios Actuales) * 100`$
 
-- *Mejorar un 10% el promedio de Mbps en las provincias con promedio menor a 20 Mbps.*
+Donde:
+- "Nuevo Usuarios" se refiere a la cantidad de usuarios de fibra óptica después del próximo trimestre.
+- "Usuarios Actuales" se refiere a la cantidad de usuario actual de fibra óptica del trimestre actual.
 
-Para el 2023 Trim. 1: ![KPI Mbps](https://github.com/DamianAlbarino/Proyecto-Individual-Nro-2/blob/main/img/KPIProvincias.png?raw=true)
+Ejemplo para el 2023 Trim. 1: ![KPI Fibra optica](https://github.com/DamianAlbarino/Proyecto-Individual-Nro-2/blob/main/img/KPIFibraOptica.png?raw=true)
+
+- *`Reducir en un 5% el acceso a internet por dial up.`*
+
+Formula utilizada =  $`KPI = ((Conexiones nuevas - Conexiones actuales) / Conexiones actuales) * 100`$
+
+Donde:
+- "Conexiones nuevas" se refiere al número conexions a internet por dial up después del próximo trimestre.
+- "Conexiones actuales" se refiere al número conexions a internet por dial up en el trimestre actual.
+
+Ejemplo para el 2023 Trim. 1: ![KPI Dial up](https://github.com/DamianAlbarino/Proyecto-Individual-Nro-2/blob/main/img/KPIDialUp.png?raw=true)
+
+- *`Mejorar un 10% el promedio de Mbps en las provincias con promedio menor a 20 Mbps.`*
+
+Formula utilizada =  $`KPI = ((Mbps nuevos - Mbps actual) / Mbps actual) * 100`$
+
+Donde:
+- "Mbps nuevos" se refiere a la cantidad de mbps después del próximo trimestre.
+- "Mbps actual" se refiere a la cantidad de mbps en el trimestre actual.
+
+Ejemplo para el 2023 Trim. 1: ![KPI Mbps](https://github.com/DamianAlbarino/Proyecto-Individual-Nro-2/blob/main/img/KPIProvincias.png?raw=true)
