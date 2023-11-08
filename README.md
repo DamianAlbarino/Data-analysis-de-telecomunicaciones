@@ -91,7 +91,7 @@ Puedes acceder y explorar el dashboard desde el repositorio. El archivo del proy
 
 ## `KPIs`
 
-- *`Aumentar en un 2% el acceso al servicio de internet para el próximo trimestre, cada 100.`*
+- *`Aumentar en un 2% el acceso al servicio de internet cada 100 hogares para el próximo trimestre.`*
 
 Formula utilizada =  $`KPI = ((Nuevo Acceso - Acceso Actual) / Acceso Actual) * 100`$
 
@@ -101,7 +101,7 @@ Donde:
 
 Ejemplo para el 2023 Trim. 1: ![KPI Acceso 100 hogares](https://github.com/DamianAlbarino/Proyecto-Individual-Nro-2/blob/main/img/KPIAcceso100H.png?raw=true)
 
-- *`Aumentar en un 2% las conexiones por fibra óptica Ejemplo para el próximo trimestre.`*
+- *`Aumentar en un 2% las conexiones por fibra óptica para el próximo trimestre.`*
 
 Formula utilizada =  $`KPI = ((Nuevos Usuarios - Usuarios Actuales) / Usuarios Actuales) * 100`$
 
@@ -111,22 +111,22 @@ Donde:
 
 Ejemplo para el 2023 Trim. 1: ![KPI Fibra optica](https://github.com/DamianAlbarino/Proyecto-Individual-Nro-2/blob/main/img/KPIFibraOptica.png?raw=true)
 
-- *`Reducir en un 5% el acceso a internet por dial up.`*
+- *`Reducir en un 5% el acceso a internet por dial up para el proximo trimestre.`*
 
-Formula utilizada =  $`KPI = ((Conexiones nuevas - Conexiones actuales) / Conexiones actuales) * 100`$
+Formula utilizada =  $`KPI = ((Conexiones Nuevas - Conexiones Actuales) / Conexiones Actuales) * 100`$
 
 Donde:
-- "Conexiones nuevas" se refiere al número conexions a internet por dial up después del próximo trimestre.
-- "Conexiones actuales" se refiere al número conexions a internet por dial up en el trimestre actual.
+- "Conexiones Nuevas" se refiere al número conexions a internet por dial up después del próximo trimestre.
+- "Conexiones Actuales" se refiere al número conexions a internet por dial up en el trimestre actual.
 
 Ejemplo para el 2023 Trim. 1: ![KPI Dial up](https://github.com/DamianAlbarino/Proyecto-Individual-Nro-2/blob/main/img/KPIDialUp.png?raw=true)
 
-- *`Mejorar un 10% el promedio de Mbps en las provincias con promedio menor a 20 Mbps.`*
+- *`Mejorar un 10% el promedio de Mbps en las provincias con promedio menor a 20 Mbps para el proximo trimestre.`*
 
-Formula utilizada =  $`KPI = ((Mbps nuevos - Mbps actual) / Mbps actual) * 100`$
+Formula utilizada =  $`KPI = ((Mbps Nuevos - Mbps Actual) / Mbps Actual) * 100`$
 
 Donde:
-- "Mbps nuevos" se refiere a la cantidad de mbps después del próximo trimestre.
-- "Mbps actual" se refiere a la cantidad de mbps en el trimestre actual.
+- "Mbps Nuevos" se refiere a la cantidad de mbps después del próximo trimestre.
+- "Mbps Actual" se refiere a la cantidad de mbps en el trimestre actual.
 
 Ejemplo para el 2023 Trim. 1: ![KPI Mbps](https://github.com/DamianAlbarino/Proyecto-Individual-Nro-2/blob/main/img/KPIProvincias.png?raw=true)
